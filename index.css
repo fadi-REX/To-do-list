@@ -1,0 +1,166 @@
+*{
+font-family: sans-serif;
+padding: 0;
+margin: 0;
+
+}
+
+
+
+body{
+
+background: url(./images/background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+min-width: 500px;
+
+
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    margin-top: 50px;
+    background: linear-gradient(to right, rgb(221, 211, 211,0.2),rgb(54, 50, 50,0.4));
+
+
+}
+
+.task{
+
+    border: 2px solid white;   
+    width: 60vw;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    
+    padding: 4px 10px;
+    border-bottom: 2px solid #fff;
+
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+p{
+    color: #fff;
+}
+
+.icon:hover {
+    font-size: 17px;
+    transition: 0.1s;
+    cursor: pointer;
+
+
+}
+
+
+.icon-star, .icon-remove{
+
+opacity: 0.3;
+
+
+}
+
+.icon-star:hover{
+ color: #fff;
+ opacity: 1;
+
+}
+
+
+.icon-remove:hover{
+color: #000;
+opacity: 1;
+}
+
+
+
+h2{
+font-size: 25px;
+text-align: center;
+margin-top: 150px;
+margin-bottom: 30px;
+color: rgb(221, 201, 201);
+
+}
+
+form{
+border: 2px solid white;
+    width: 60vw;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    padding: 4px 10px;
+    border-bottom: 2px solid #fff;
+
+
+    display: flex;
+    justify-content:space-between;
+
+    text-align: center;
+
+}
+input{
+   all: unset;
+   width: 50vw;
+   color: white;
+
+}
+
+button{
+    all: unset;
+    
+}
+.icon-plus:hover{
+    
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.2s;
+    color: #fff;
+
+}
+
+
+/* For javascript     */
+
+.change-btn{
+
+    display: none;
+}
+
+.finish{
+text-decoration: line-through;
+text-decoration-color: #000;
+}
+
+.star{
+ opacity: 1;
+ color: white;
+
+
+}
+
+
+
+
+@media screen and (max-width : 500px) {
+
+    h1{
+        font-size: 2rem;
+    }
+    
+}
