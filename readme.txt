@@ -1,4 +1,4 @@
 # To do list
-![image](icons.png)
+![image](icon.png)
 
 # web page
