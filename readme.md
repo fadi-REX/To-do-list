@@ -4,8 +4,8 @@
 
 ## web page
 
-<img src=".images\Screenshot-1.png">
+<img src="./images/Screenshot-1.png">
 
 ## chrome extension
 
-<img src=".images\Screenshot-2.png">
+<img src="./images/Screenshot-2.png">
